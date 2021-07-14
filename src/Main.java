@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         // TODO: подставлять номер карты нужно сюда между двойными кавычками, без пробелов
-        String number = "375792499829786";
+        String number = "30494357095727";
         System.out.println(String.format("Result is %s", isValidCardNumber(number) ? "OK" : "FAIL"));
     }
 
@@ -35,4 +35,3 @@ public class Main {
         return (result != 0) && (result % 10 == 0);
     }
 }
-
